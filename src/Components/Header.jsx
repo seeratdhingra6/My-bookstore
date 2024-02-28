@@ -50,7 +50,7 @@ const Header = () => {
           <NavLink className="header-align" activeClassName="click-hover" to="/">
             <StoreIcon className="store-icon" />
           <p>
-            <span className="header-top">Ashish's</span>
+            <span className="header-top">Seerat Arora's</span>
             <span className="header-bottom"> BookStore</span>
           </p>
           </NavLink>
