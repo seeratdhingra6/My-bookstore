@@ -1,7 +1,6 @@
 {
   "name": "shopping-cart",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.11.2",
@@ -15,9 +14,10 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "./node_modules/react-scripts/bin/react-scripts.js start",
-    "build": "./node_modules/react-scripts/bin/react-scripts.js  build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
+    "ci": "react-scripts test --watchAll=false --coverage --passWithNoTests",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
